@@ -1,0 +1,467 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 40px;
+	background: #ea9d20;
+}
+.hed{
+	width: 1269px;
+	height: 100%;
+	background: #ea9d20;
+	/* padding-left: 40px; */
+	margin: 0 auto;
+}
+.her{
+	width: 534px;
+	height: 40px;
+	background: #ea9d20;
+	float: left;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.her li{
+	width: 158px;
+	height: 40px;
+	background: #ea9d20;
+	line-height: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+.her li:first-child{
+	margin-right: -142px;
+}
+.her li:nth-child(2){
+	margin-left: 66px;
+}
+.her li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.her li i.icon-dianhua1{
+	font-size: 12px;
+	color: #fff;
+
+}
+.her li a span{
+	font-size: 12px;
+	color: #fff;
+}
+.her li i.icon-_youxiang{
+	font-size: 12px;
+	color: #fff;
+
+}
+.her li i.icon-shijian{
+	font-size: 12px;
+	color: #fff;
+}
+.hel{
+	width: 288px;
+	height: 40px;
+	background: #ea9d20;
+	float: right;
+	line-height: 40px;
+}
+.hel a{
+	display: block;
+	display: flex;
+	justify-content: flex-end;
+
+}
+.hel a>span{
+	font-size: 12px;
+	color: #fff;
+	padding-right: 20px;
+}
+/* nav开始 */
+nav{
+	width: 100%;
+	height: 176px;
+	background: #fff;
+}
+.na{
+	width: 1269px;
+	height: 176px;
+	background: #ffffff;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.na .nat{
+	width: 174px;
+	height: 130px;
+	background: #ffffff;
+}
+.na .nat a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.na .nat a img{
+	width: 100%;
+	height: 100%;
+}
+.na .nam{
+	width: 666px;
+	height: 130px;
+	background: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.na .nam li{
+	width: 66px;
+	height: 25px;
+	background: #ffffff;
+	text-align: center;
+	line-height: 26px;
+}
+.na .nam li:nth-child(7){
+	border-bottom: 1px solid #dd9933;
+}
+.na .nam a p{
+	font-size: 12px;
+	color: #dd9933;
+}
+main{
+	width: 100%;
+	height: 100%;
+	margin-top: 40px;
+	/* background: #fff; */
+
+}
+.ma{
+	width: 1269px;
+	height: 2760px;
+	/* background: red; */
+	margin: 0 auto;
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: space-between;
+}
+.ma .mal{
+	width: 238px;
+	height: 100%;
+	/* background: pink; */
+	border: 1px solid #cccccc;
+
+}
+.ma .mal .maq{
+	width: 100%;
+	height: 48px;
+	border-bottom: 2px solid #ddaf6a;
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	padding: 0 8px;
+	box-sizing: border-box;
+}
+.ma .mal .maq h4{
+	font-size: 12px;
+	color: #464646;
+}
+.ma .mal .maw{
+	width: 100%;
+	height: 104px;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0 8px;
+	box-sizing: border-box;
+}
+.ma .mal .maw .mae{
+	width: 100%;
+	height: 24px;
+	background: pink;
+}
+.ma .mal .maw .mae input{
+	width: 100%;
+	height: 100%;
+	border: 1px solid #cccccc;
+
+}
+.ma .mal .maw .mae input:focus{
+	outline: none;
+}
+.ma .mal .maw .mat{
+	width: 100%;
+	height: 36px;
+	/* background: red; */
+}
+.ma .mal .maw .mat .mat1{
+	width: 100%;
+	height: 18px;
+	display: flex;
+	padding: 0 8px;
+	box-sizing: border-box;
+	justify-content: space-between;
+}
+.ma .mal .maw .mat .mat1 label{
+	font-size: 12px;
+	color: #cccccc;
+}
+.ma .mal .maw .mat .mat2{
+	width: 100%;
+	height: 18px;
+	background: pink;
+}
+.ma .mar{
+	width: 1000px;
+	height: 100%;
+	/* background: pink; */
+	border: 1px solid #cccccc;
+
+}
+.ma .mar .maa{
+	width: 100%;
+	height: 49px;
+	border-bottom: 1px solid #cccccc;
+	display: flex;
+	align-items: center;
+	padding: 0 8px;
+	box-sizing: border-box;
+}
+.ma .mar .maa h5{
+	font-size: 12px;
+	color: #464646;
+}
+.ma .mar .maa .mas{
+	width: 112px;
+	height: 26px;
+	display: flex;
+}
+.ma .mar .maa .mas .mad{
+	width: 88px;
+	height: 24px;
+	
+}
+.ma .mar .maa .mas .mad select{
+	width: 100%;
+	height: 100%;
+	border: 1px solid #cccccc;
+}
+.ma .mar .maa .mas .mad select:focus{
+	outline: none;
+}
+.ma .mar .maa .mas .maf{
+	width: 24px;
+	height: 24px;
+	background: #dd9933;
+}
+.ma .mar .maa .mas .maf a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+.ma .mar .maa .mas .maf a i.icon-jiantou-copy{
+	/* display: block; */
+	font-size: 12px;
+	color: red;
+}
+.ma .mar .yd{
+	width: 990px;
+	height: 240px;
+	/* background: red; */
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.ma .mar .yd .ydt{
+	width: 242px;
+	height: 100%;
+}
+.ma .mar .yd .ydt img{
+	width: 100%;
+	height: 100%;
+}
+.ma .mar .yd .ydx{
+	width: 738px;
+	height: 100%;
+	/* background: pink; */
+}
+.ma .mar .yd .ydx .ydz{
+	width: 100%;
+	height: 134px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.ma .mar .yd .ydx .ydz li{
+	width: 100%;
+	height: 26px;
+	/* background: pink; */
+	display: flex;
+	align-items: center;
+}
+.ma .mar .yd .ydx .ydz li .ydzl{
+	width: 622px;
+	height: 100%;
+	border-bottom: 1px dashed #cccccc;
+	display: flex;
+	align-items: center;
+}
+.ma .mar .yd .ydx .ydz li .ydzl h6{
+	color: #696969;
+	font-size: 16px;
+}
+.ma .mar .yd .ydx .ydz li .ydzr{
+	width: 116px;
+	height: 100%;
+	display: flex;
+	
+	/* border-bottom: 1px dashed #cccccc; */
+}
+.ma .mar .yd .ydx .ydz li .ydzr>p{
+	align-self: flex-end;
+	font-size: 14px;
+	color: #424242;
+	padding-left: 48px;
+	box-sizing: border-box;
+}
+.ma .mar .yd .ydx .ydz li p{
+	font-size: 12px;
+	color: #cccccc;
+}
+.ma .mar .yd .ydx .ckxq{
+	width: 180px;
+	height: 34px;
+	background: #ff6700;
+	margin-top: 68px;
+	margin-left: 554px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ma .mar .yd .ydx .ckxq a p{
+	color: #ffffff;
+	font-size: 12px;
+}
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 198px;
+	background: #eaeaea;
+	overflow: hidden;
+}
+.foo{
+	width: 1269px;
+	height: 112px;
+	background: #eaeaea;
+	margin: 24px auto 0;
+}
+.foo .fooa{
+	width: 632px;
+	height: 100%;
+	background: #eaeaea;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.foo .fooa .foob{
+	width: 136px;
+	height: 100%;
+	background: #eaeaea;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.foo .fooa .foob h2{
+	font-size: 14px;
+	color: #696969;
+}
+.foo .fooa .foob span{
+	font-size: 12px;
+	color: #808080;
+}
+.foo .fooa .fooc{
+	width: 136px;
+	height: 100%;
+	background: #eaeaea;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.foo .fooa .fooc h2{
+	font-size: 14px;
+	color: #696969;
+}
+.foo .fooa .fooc span{
+	font-size: 12px;
+	color: #808080;
+}
+.foo .fooa .food{
+	width: 216px;
+	height: 79px;
+	background: #eaeaea;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.foo .fooa .food p{
+	font-size: 12px;
+	color: #696969;
+}
+.foo .fooa .food span{
+	font-size: 12px;
+	color: #808080;
+}
+.foot{
+	width: 1269px;
+	height: 34px;
+	background: #eaeaea;
+	/* margin-top: 29px; */
+	margin: 29px auto 0;
+
+}
+.foot .foott{
+	width: 260px;
+	height: 34px;
+	background: #eaeaea;
+	margin: 0 auto;
+}
+.foot .foott .fot{
+	width: 260px;
+	height: 17px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.foot .foott .fot .he{
+	width: 38px;
+	height: 1px;
+	background: #808080;
+}
+.foot .foott .fot span{
+	font-size: 12px;
+	color: #808080;
+}
+.foot .foott .zuh{
+	width: 260px;
+	height: 17px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.foot .foott .zuh span{
+	font-size: 12px;
+	color: #808080;
+}
